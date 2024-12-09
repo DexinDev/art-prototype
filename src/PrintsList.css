@@ -1,0 +1,25 @@
+/* src/PrintsList.css */
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-preview {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.7); /* Optional: to make the button more visible */
+    padding: 2px; /* Adjust padding to make the button smaller */
+  }
+  
+  .image-container:hover .delete-button {
+    display: block;
+  }
+  
